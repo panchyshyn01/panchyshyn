@@ -1,0 +1,420 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #fff;
+    margin: auto; padding: 0;
+    max-width: 1600px;
+
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}
+/*--------Home------------*/
+#home {
+    margin: 0;
+    background-image: url(../images/background-home.jpg);
+    height:670px;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.home-container>h1 {
+    background-color:#263339; 
+    color: #fff; 
+    font-size: 90px;
+    margin: 0;
+    text-align: center;
+}
+.home-container>h3 {
+    color: #263339; 
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.button-home-container{
+    display: flex;
+}
+.button-home {
+    width: 45%;
+    margin: 15px 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid #263339;
+    color: #263339;
+    font-size: 20px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+.button-home:hover {
+    background-color: #263339;
+    color: #fff;
+}
+
+/*--------Service------------*/
+#service {
+    background: #f5f5f4;
+}
+#service h2{
+    font-size: 42px;
+    text-align: center;
+    color: #faac47;
+    margin: 0; 
+    padding: 20px;
+}
+.flex-container-service {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0 20px;
+}
+.item-container-service {
+    flex: 1;
+    padding: 20px;
+    margin-bottom: 10px;
+    transition: background-color 0.5s;
+}
+.item-container-service img {
+    border-radius: 50%;
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+.item-container-service h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #18313a;
+}
+.item-container-service p {
+    font-size: 16px;
+    color: #494949;
+}
+.item-container-service:hover {
+    background: #eaeaea; 
+    border-radius: 5px;
+}
+
+.button-service-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.button-service {
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 3px solid #f9a02c;
+    color: #f9a02c;
+    font-size: 20px;
+    text-align: center;
+    transition: background-color 0.5s;
+}
+.button-service:hover {
+    color: #fff;
+    background-color: #f9a02c;
+}
+
+/*--------statistics------------*/
+#statistics-container {
+    display: flex;
+    margin: 0;
+}
+.statistics-client-1, .statistics-client-2 {
+    flex: 1;
+    background: #faac47;
+    padding: 15px;
+}
+.statistics-client-2 {
+    background: #f9a02c;
+}
+.number, .type-statistic {
+    font-size: 70px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+.type-statistic {
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+.social { 
+    margin: 0;
+    padding: 55px 10px;
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #263339;
+}
+.social-img {
+    width: 55px;
+    padding: 0;
+    margin: 0;
+    
+}
+.social-icon {
+    padding: 0 15px;
+    margin: 0;
+}
+
+
+/*--------Team------------*/
+#team {
+    margin: 0;
+    background-image: url(../images/background-team.jpg);
+    background-color: #4A423F;
+    background-size:cover;
+    background-position: center center;
+    padding: 10px;
+}
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.item-team {
+    margin: 20px; margin-bottom: 35px;
+    width: 300px; height: 450px;
+    background-color: rgba(255,255,255,.6);
+}
+#team>h2 {
+    font-size: 42px;
+    text-align: center;
+    color: #E2E2E2;
+    margin: 0; 
+    padding: 10px;
+}
+.item-team>h3 {
+    background-color: #263339;
+    font-size: 24px;
+    text-align: center;
+    color: #fff;
+    margin: 0; 
+    padding: 10px;
+}
+.img-team {
+    width: 300px;
+    margin: 0px;
+}
+.item-team>p {
+    font-size: 20px;
+    text-align: center;
+    color: #263339;
+    margin: 0; 
+    padding: 10px;
+}
+.social-team {
+    display: flex;
+    justify-content: center;
+}
+.social-icon-team {
+    width: 80px;
+    padding: 0;
+    margin: 5px;
+    
+}
+
+
+/*--------Contact------------*/
+
+#contact {
+    background: #263339;
+    padding: 10px;
+    padding-bottom: 30px;
+   
+}
+#contact h2{
+    font-size: 42px;
+    text-align: center;
+    color: #faac47;
+    margin: 0; 
+    padding: 20px;
+}
+.contact {
+    display: flex;
+}
+.container-contact-item {
+    flex-direction: column;
+    padding: 15px;
+}
+.item-contact {
+    display: flex;
+    align-items: center;
+    transition: background-color 0.5s;
+}
+.item-contact:hover {
+    background: #2d464b; 
+    border-radius: 5px;
+}
+.item-contact img {
+    width: 60px;
+    padding: 5px 15px;
+}
+
+.container-contact {
+    flex: 1;
+    padding: 10px;
+    color: #fff;
+}
+.container-contact p {
+   font-size: 18px;
+}
+.item-contact p {
+    font-size: 20px;
+    padding: 5px;
+}
+.container-form {
+    flex: 1;
+    padding: 10px;
+}
+
+/*--------form------------*/
+#application {
+    width: 450px;
+    margin: 0 auto;
+}
+#applicationName, #applicationEmail, #applicationTelephone, #applicationMassege {
+    width: 100%;
+    height: 35px;
+    background: #fff;
+    margin-top: 15px;
+    padding: 2px 5px;
+    border: 3px solid #263339;
+    border-radius: 4px;
+    color: #263339;
+    font-size: 15px;
+}
+#applicationMassege {
+    max-width: 450px;
+    height: 90px;
+    max-height: 90px;
+    }
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus, #applicationMassege:focus { 
+    border: 3px solid #faac47;
+}
+#applicationButton {
+    width: 50%;
+    margin-top: 15px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    height: 50px;
+    text-transform: uppercase;
+    border: 3px solid #faac47;
+    color: #faac47;
+    background-color: #263339;
+    font-size: 18px;
+    transition: background-color 0.5s;
+}
+#applicationButton:hover {
+    color: #fff;
+    background-color: #faac47;
+}
+#applicationButton:active {
+    background-color: #f9a02c;
+    border: 3px solid #f9a02c;
+}
+
+
+/*--------thank------------*/
+#hidden {
+    display: none;
+}
+
+.thank {
+    width: 450px; height: 365px;
+    background-color: #f5f5f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    
+}
+.thank>h3 {
+    color: #006775;
+    border-radius: 4px;
+    font-size: 28px;
+    margin: 0; padding: 10px;
+}
+.thank>p {
+    font-size: 18px;
+    color: #263339;
+    text-align: center;
+    margin: 0; padding: 10px 25px;
+}
+
+.img-thank {
+    width: 150px;
+    margin: 0; padding: 10px;
+}
+
+
+/*--------madia------------*/
+
+@media screen and (max-width: 1000px){
+    #application {width: 300px;}
+    .thank {width: 300px;}
+    #applicationButton {width: 316px;}
+    #applicationMassege {max-width: 300px;}
+    .item-container-service {padding: 10px;}
+    .social-img {width: 45px;}
+    .number {font-size: 45px;}
+    .item-container-service p {font-size: 14px;}
+}
+
+@media screen and (max-width: 830px){
+    .flex-container-service{flex-direction: column;}
+    #statistics-container {flex-direction: column;}
+    .item-container-service p {font-size: 16px;}
+    .contact {flex-direction: column;}
+    #application {width: 450px;}
+    .thank {width: 450px;}
+    #applicationButton {width: 466px;}
+    #applicationMassege {max-width: 450px;}
+    .container-form {padding: 5px;}
+    .container-contact-item {padding: 5px;}
+}
+
+@media screen and (max-width: 600px){
+    .button-home-container {flex-direction:column;}
+    .button-home {width: 100%; margin: 10px 0; padding: 10px 0;}
+    .home-container>h1 {font-size: 55px;}
+    .home-container>h3 {font-size: 23px;}
+    #home {height:550px;}
+}
+@media screen and (max-width: 530px){
+    .button-service {font-size: 15px;}
+    #application {width: 350px;}
+    .thank {width: 350px;}
+    #applicationButton {width: 366px;}
+    #applicationMassege {max-width: 350px;}
+    .item-contact p {font-size: 16px;}
+    .button-service {width: 300px;}
+}
+@media screen and (max-width: 420px){
+    #application {width: 250px;}
+    .thank {width: 250px;}
+    #applicationButton {width: 266px;}
+    #applicationMassege {max-width: 250px;}
+    .item-contact p {font-size: 14px;}
+    .item-contact img  {width: 50px;padding: 5px;}
+    .home-container>h1 {font-size: 45px;}
+    .home-container>h3 {font-size: 18px;}
+}
+
